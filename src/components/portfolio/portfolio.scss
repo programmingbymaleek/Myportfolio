@@ -1,0 +1,28 @@
+.project1,.project2, .project3{
+  width: 40rem;
+  height:100%;
+  border: 1px solid black;
+  h1,p{
+    padding: .5rem;
+    span{
+      font-size: 1rem;
+      padding: 1rem;
+      color: green;
+    }
+  }
+
+ 
+}
+.top,.buttom{
+  margin-top: 2rem;
+  display: flex;
+  gap:1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pro-display{
+  max-width: inherit;
+  min-height: 50%;
+  
+}

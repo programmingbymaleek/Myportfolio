@@ -1,0 +1,23 @@
+/********Custom button styles**********/
+
+:root {
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+}
+
+.btn-main-offer {
+  margin-top: 2rem;
+  border: 1px solid var(--primary-red);
+  text-decoration: none;
+  padding: .5rem .5rem;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  color: white;
+}
+.btn-main-offer:hover{
+  background-color:green ;
+  color: whitesmoke;
+  transition: .25 ease-in-out;
+
+}

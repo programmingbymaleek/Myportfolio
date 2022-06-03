@@ -1,0 +1,97 @@
+.myService{
+  padding: 0 .5rem;
+  h1{
+   margin: 3rem 0;
+  }
+}
+.service-wrapper{
+display: flex; 
+flex-direction: row;
+justify-content:center;
+gap:3rem;
+flex-wrap: wrap;
+
+.s-icon{
+  position: relative;
+  width:20rem;
+  height: 20rem;
+  .s-main{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: gold;
+  }
+  .s-icon-before{
+   background-image: conic-gradient(#04b0ee 20deg, transparent 120deg);
+    height: 150%;
+    width: 150%;
+    position: absolute;
+    left: -25%;
+    top: -25%;
+    animation: rotate 2s infinite linear;
+    
+  }
+  .s-icon-after{
+    height: 97%;
+    width: 97%;
+    position: absolute;
+    background-color: #1c1b29;
+    border-radius: 5px;
+    top:1.5%;
+    left:1.5%;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    .icon-bg{
+      background-color: #474c52;
+      color: whitesmoke;
+      width: 4rem;
+      height: 4rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      .i{
+        font-size: 2rem;
+      }
+    }
+  
+    .icon-spin{
+      animation-name:rotate;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      @keyframes rotate{
+  
+        100%{
+          transform:rotate(360deg);
+        }
+      }
+  
+    }
+  
+  
+  
+    .s-title{
+      font-size: 1.2rem;
+      text-transform: uppercase;
+    }
+
+  }
+}
+
+
+
+
+
+
+
+
+}
