@@ -1,7 +1,12 @@
-.project1,.project2, .project3{
-  width: 40rem;
+.project1, .project2, .project3{
+  width: 38rem;
   height:100%;
   border: 1px solid black;
+  cursor: pointer;
+  -moz-Osx-font-smoothing:grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out; 
   h1,p{
     padding: .5rem;
     span{
@@ -13,10 +18,14 @@
 
  
 }
+
+.project1:hover, .project2:hover, .project3:hover{
+  transform:scale(1.05); 
+}
 .top,.buttom{
   margin-top: 2rem;
   display: flex;
-  gap:1rem;
+  gap:1.8rem;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
