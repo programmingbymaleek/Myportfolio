@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Myportfolio/static/css/main.a402c71f.css",
-    "main.js": "/Myportfolio/static/js/main.3415d7a4.js",
+    "main.css": "/Myportfolio/static/css/main.731381fa.css",
+    "main.js": "/Myportfolio/static/js/main.9f8f13ae.js",
     "static/js/937.3a214541.chunk.js": "/Myportfolio/static/js/937.3a214541.chunk.js",
     "static/js/787.03a902cf.chunk.js": "/Myportfolio/static/js/787.03a902cf.chunk.js",
     "static/media/dental_ecommence_site_cover.png": "/Myportfolio/static/media/dental_ecommence_site_cover.21e2913116e3b20da568.png",
@@ -9,13 +9,13 @@
     "static/media/profilepics.jpg": "/Myportfolio/static/media/profilepics.c7514542fd28db06bc32.jpg",
     "static/media/header_bg.webp": "/Myportfolio/static/media/header_bg.2749eb535c13ba24f236.webp",
     "index.html": "/Myportfolio/index.html",
-    "main.a402c71f.css.map": "/Myportfolio/static/css/main.a402c71f.css.map",
-    "main.3415d7a4.js.map": "/Myportfolio/static/js/main.3415d7a4.js.map",
+    "main.731381fa.css.map": "/Myportfolio/static/css/main.731381fa.css.map",
+    "main.9f8f13ae.js.map": "/Myportfolio/static/js/main.9f8f13ae.js.map",
     "937.3a214541.chunk.js.map": "/Myportfolio/static/js/937.3a214541.chunk.js.map",
     "787.03a902cf.chunk.js.map": "/Myportfolio/static/js/787.03a902cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a402c71f.css",
-    "static/js/main.3415d7a4.js"
+    "static/css/main.731381fa.css",
+    "static/js/main.9f8f13ae.js"
   ]
 }
