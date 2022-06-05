@@ -1,7 +1,10 @@
 .project1, .project2, .project3{
+  position: relative;
   width: 38rem;
-  height:100%;
-  border: 1px solid black;
+  min-height:100%;
+  border: 1.5px solid black;
+  padding: .5rem;
+  border-radius: .5rem;
   cursor: pointer;
   -moz-Osx-font-smoothing:grayscale;
   backface-visibility: hidden;
@@ -19,9 +22,10 @@
  
 }
 
-.project1:hover, .project2:hover, .project3:hover{
-  transform:scale(1.05); 
-}
+ .project1:hover, .project2:hover,{
+     transform:scale(1.05); 
+   
+ }
 .top,.buttom{
   margin-top: 2rem;
   display: flex;
@@ -31,7 +35,48 @@
   flex-wrap: wrap;
 }
 .pro-display{
+
   max-width: inherit;
   min-height: 50%;
+ 
+}
+
+
+.portfolio_header{
+  text-transform: capitalize;
+  margin:2rem 0rem 2rem 0rem;
+  text-align: center;
+}
+
+
+.overflow{
+  position: absolute;
+  background-color: #212529;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  top: 0;
+  right: 0;
+  border: 1px solid pink;
+  left: 0;
+  border-radius: .5rem;
+}
+.overflow:hover{
+  opacity: 60%;
+transition: .3s ease-in-out;
+}
+.portfolio_search_icon{
+  position: absolute;
+  opacity: 0;
+  margin-left: -50%;
+  margin-top: 20%;
+  color: whitesmoke;
+  font-size: 1.5rem;
   
+}
+.pro-display:hover .portfolio_search_icon{
+  opacity: 70%;
+  cursor: pointer;
+  transition: .03 ease-in-out;
+ 
 }

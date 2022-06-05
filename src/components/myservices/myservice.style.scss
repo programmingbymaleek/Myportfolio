@@ -4,6 +4,7 @@
    margin: 3rem 0;
   }
 }
+
 .service-wrapper{
 display: flex; 
 flex-direction: row;
@@ -84,6 +85,11 @@ flex-wrap: wrap;
       text-transform: uppercase;
     }
 
+  }
+  .s-icon-after:hover{
+    background-color:whitesmoke ;
+    color:#474c52;
+    transition: .5s ease-in-out;
   }
 }
 

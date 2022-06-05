@@ -6,6 +6,7 @@ import ParticlesBG from "./components/particles/particles_bg";
 import Aboutme from './components/aboutme/aboutme';
 import Myservices from './components/myservices/myservices';
 import Portfolio from './components/portfolio/portfolio';
+import Experience from './components/experience/experience';
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Header />
       <Aboutme />
       <Myservices />
+      <Experience />
       <Portfolio />
 
     </>
