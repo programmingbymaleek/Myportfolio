@@ -7,6 +7,7 @@ import Aboutme from './components/aboutme/aboutme';
 import Myservices from './components/myservices/myservices';
 import Portfolio from './components/portfolio/portfolio';
 import Experience from './components/experience/experience';
+import Contact_me from './components/contact_me/contact_me';
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <Myservices />
       <Experience />
       <Portfolio />
+      <Contact_me />
 
     </>
   );

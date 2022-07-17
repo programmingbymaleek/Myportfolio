@@ -7,7 +7,7 @@ const Myservices = () => {
 
   // const [data, setData] = useState(ServicesData);
 
-  return (<div className="container-fluid  myService">
+  return (<div id="service" className="container-fluid  myService">
     <div><h1 className="display-4" style={{ textAlign: 'center' }}>My services</h1></div>
     <div className="service-wrapper">
       {ServicesData.map((s) => (
