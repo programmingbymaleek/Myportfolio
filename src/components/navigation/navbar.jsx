@@ -23,11 +23,7 @@ const NavBar = () => {
               <Link smooth={true} to='about' className="nav-link" href="#">About me</Link>
             </li>
             <li className="nav-item">
-<<<<<<< HEAD
               <Link smooth={true} to='service' className="nav-link" href="#">Services</Link>
-=======
-              <Link smooth={true} to='service' className="nav-link" href="#">Services </Link>
->>>>>>> 7be4a38d3995687b7b239d8cd279f3861930df15
             </li>
             <li className="nav-item">
               <Link smooth={true} to='work' className="nav-link" href="#">My Work</Link>
